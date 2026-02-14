@@ -1,0 +1,21 @@
+{
+  "baseline_logreg": {
+    "val_roc_auc": 0.7800547842656868,
+    "val_pr_auc": 0.6962845811972911
+  },
+  "champion": {
+    "val_roc_auc": 0.7653804273853273,
+    "val_pr_auc": 0.6375152179922218
+  },
+  "chosen_threshold": 0.28876664909736743,
+  "estimated_val_profit": 82015.0,
+  "test": {
+    "roc_auc": 0.7315383465225361,
+    "pr_auc": 0.7555060916450183
+  },
+  "model_type": "GradientBoosting+Calibrated",
+  "split_dates": {
+    "train_end": "2025-02-06",
+    "val_end": "2025-11-03"
+  }
+}
